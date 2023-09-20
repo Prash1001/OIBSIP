@@ -1,0 +1,287 @@
+.pre{
+background-image: url('bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;}
+body{
+    margin: 0;
+    color: white;
+    background: #272829;
+    font-family: 'Raleway', sans-serif; 
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none; 
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+select option {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+margin: 100px;}
+
+select option:checked {
+    color: #fff; 
+    font-weight: bold; 
+}
+.language-dropdown {
+    display: flex;
+    align-items: center;
+    color: #272829;
+}
+
+.language-dropdown select {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    color: #f2f2ff;
+
+}
+
+.globe-symbol {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.green-button {
+    background-color: #262A56;
+    color: white; 
+    padding: 20px 40px; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    font-size: large;
+    transition: background-color 0.5s;
+
+}
+.green-button:hover{
+    background-color: white; 
+    color: #007ACC; 
+
+}
+
+.button1 {
+    background-color: #262A56;
+    color: white; 
+    padding: 15px 25px; 
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    font-size: large;
+    transition: background-color 0.5s;
+
+}
+.button1:hover{
+    background-color: white; 
+    color: #007ACC; 
+
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top:  10px;
+    padding-bottom: 35vh;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+
+.image {
+    width: 50%; 
+    padding-top: 10px;
+    border-radius: 30px;
+
+}
+
+.image1 {
+    width: 50%; 
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+
+.fade-in {
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 3s ease, transform 3s ease-in-out; 
+}
+
+.fade-in.appear {
+    opacity: 1; 
+    transform: translateY(0); 
+}
+
+.description {
+    width: 50%; 
+    padding: 20px; 
+    background-color: #272829; 
+}
+
+.container-2 {
+    display: flex;
+    align-items: center; 
+}
+
+
+.description-2 {
+    width: 50%; 
+    padding: 20px; 
+    background-color: #272829;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.card {
+    width: 30%; 
+    padding: 20px;
+    border: 1px  ;
+    text-align: center;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.card-description {
+    margin-top: 10px;
+}
+
+
+.scrollable-container {
+    overflow: auto; 
+    max-height: 100%;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #007ACC; 
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #005FBF; 
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: black; 
+}
+
+
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer {
+    padding: 1rem;
+   background-color: #0f1216;
+    color: #ccc;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+
+.newsletter-form input[type="text"] {
+    padding: 0.5rem;
+    width: 76.5%;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.newsletter-form button {
+    padding: 0.5rem 1rem;
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width: 79.5%;
+}
+
+#queries{
+    width: 79%;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+
+.social-icons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    width: 200px;
+    padding-left: 160px;
+    
+}
+
+.social-icon {
+    text-align: center;
+    font-size: 80px;
+    color: #272829;
+}
+
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 1;
+        padding: 0 0.5rem;
+    }
+}
