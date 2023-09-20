@@ -3,7 +3,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #272829;
+
 }
 
 h1 {
@@ -11,13 +12,13 @@ h1 {
     color: #333;
 }
 
-#convertButton{
+#convert{
     margin: 10px;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 79%;
+    width: 20%;
 }
 
  #fromUnit, #toUnit  {
@@ -26,7 +27,7 @@ h1 {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 37%;
+    width: 44%;
 }
 
 #input{   margin: 10px;
@@ -51,4 +52,5 @@ h1 {
     border: 1px solid #ccc;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+
 }
