@@ -34,16 +34,12 @@ navLinks.forEach(link => {
 })
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
-    fetch('portfolio-website-master/Prashant.pdf') // Replace with the actual path to your resume file
-        .then(response => response.blob())
-        .then(blob => {
-            var link = document.createElement('a');
-            link.href = window.URL.createObjectURL(blob);
-            link.download = 'Prashant.pdf';
-            document.body.appendChild(link);
+    var link = document.createElement('a');
+    link.href = 'Prashant.pdf'; 
+    link.download = 'Prashant.pdf';
+    document.body.appendChild(link);
 
-            link.click();
+    link.click();
 
-            document.body.removeChild(link);
-        });
+    document.body.removeChild(link);
 });
